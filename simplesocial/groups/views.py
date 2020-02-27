@@ -5,7 +5,7 @@ from django.views import generic
 from django.contrib import messages
 from django.db import IntegrityError
 
-from simplesocial.groups.models import Group, GroupMember
+from groups.models import Group, GroupMember
 from . import models
 
 

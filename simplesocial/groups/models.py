@@ -7,7 +7,7 @@ from django import template
 import misaka
 
 User = get_user_model()
-reguster = template.Library()
+register = template.Library()
 
 
 class Group(models.Model):
